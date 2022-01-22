@@ -1,5 +1,7 @@
 package dev.jackaboi.advancedtech;
 
+import dev.jackaboi.advancedtech.block.ModBlocks;
+import dev.jackaboi.advancedtech.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,6 +21,9 @@ public class AdvancedTech
 
     public AdvancedTech() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
