@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "advancedtech:block/mini_server" },
+    "facing=south": { "model": "advancedtech:block/mini_server", "y":  180},
+    "facing=west": { "model": "advancedtech:block/mini_server", "y":  270},
+    "facing=east": { "model": "advancedtech:block/mini_server", "y":  90}
+  }
+}

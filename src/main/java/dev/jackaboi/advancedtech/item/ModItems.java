@@ -14,9 +14,9 @@ public class ModItems {
 
     //Titan
     public static final RegistryObject<Item> TITAN_INGOT = ITEMS.register("titan_ingot",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AdvancedTech_ORES)));
     public static final RegistryObject<Item> TITAN_SHARD = ITEMS.register("titan_shard",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.AdvancedTech_ORES)));
 
 
     public static void register(IEventBus eventBus){

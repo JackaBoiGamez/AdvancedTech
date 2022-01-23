@@ -3,5 +3,6 @@
   "item.advancedtech.titan_shard": "Titan Shard",
 
   "block.advancedtech.titan_block": "Titan Block",
-  "block.advancedtech.titan_ore": "Titan Ore"
+  "block.advancedtech.titan_ore": "Titan Ore",
+  "block.advancedtech.mini_server": "Mini Server"
 }
