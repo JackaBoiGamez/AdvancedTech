@@ -1,7 +1,8 @@
 package dev.jackaboi.advancedtech;
 
-import dev.jackaboi.advancedtech.block.ModBlocks;
-import dev.jackaboi.advancedtech.item.ModItems;
+import dev.jackaboi.advancedtech.util.RegistryHandler;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -15,15 +16,13 @@ import org.apache.logging.log4j.Logger;
 @Mod(AdvancedTech.MOD_ID)
 public class AdvancedTech
 {
-    public static final String MOD_ID = "advancedtech";
-    // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
+    public static final String MOD_ID = "advancedtech";
 
     public AdvancedTech() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(eventBus);
-        ModBlocks.register(eventBus);
+        RegistryHandler.init(eventBus);
 
         eventBus.addListener(this::setup);
 
@@ -33,8 +32,13 @@ public class AdvancedTech
 
     private void setup(final FMLCommonSetupEvent event)
     {
-        // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+
     }
+
+    public static final CreativeModeTab TAB = new CreativeModeTab("advancedTech") {
+        @Override
+        public ItemStack makeIcon() {
+            return new ItemStack(RegistryHandler.titan_shard.get());
+        }
+    };
 }

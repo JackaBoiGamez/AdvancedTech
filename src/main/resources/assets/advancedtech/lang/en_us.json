@@ -1,8 +1,12 @@
 {
-  "item.advancedtech.titan_ingot": "Titan Ingot",
+  "itemGroup.advancedTech": "Advanced Tech",
+  "item.advancedtech.titan_processor": "Titan Processor",
   "item.advancedtech.titan_shard": "Titan Shard",
+  "item.advancedtech.iron_frame": "Iron Frame",
+  "item.advancedtech.motherboard": "Motherboard",
+  "item.advancedtech.server_fan": "Server Fan",
+  "item.advancedtech.block_drive": "Block Drive",
 
-  "block.advancedtech.titan_block": "Titan Block",
   "block.advancedtech.titan_ore": "Titan Ore",
   "block.advancedtech.mini_server": "Mini Server"
 }
