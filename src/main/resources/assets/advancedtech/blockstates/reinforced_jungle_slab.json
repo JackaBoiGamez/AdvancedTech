@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "advancedtech:block/reinforced_jungle_slab"
+    },
+    "type=double": {
+      "model": "advancedtech:block/reinforced_jungle_planks"
+    },
+    "type=top": {
+      "model": "advancedtech:block/reinforced_jungle_slab_top"
+    }
+  }
+}

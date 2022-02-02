@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "advancedtech:mini_server"
+          "name": "advancedtech:reinforced_warped_slab"
         }
       ],
       "conditions": [

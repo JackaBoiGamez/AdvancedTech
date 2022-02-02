@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "advancedtech:block/reinforced_oak_planks",
+    "top": "advancedtech:block/reinforced_oak_planks",
+    "side": "advancedtech:block/reinforced_oak_planks"
+  }
+}

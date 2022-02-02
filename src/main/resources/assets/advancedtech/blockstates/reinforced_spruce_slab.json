@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "advancedtech:block/reinforced_spruce_slab"
+    },
+    "type=double": {
+      "model": "advancedtech:block/reinforced_spruce_planks"
+    },
+    "type=top": {
+      "model": "advancedtech:block/reinforced_spruce_slab_top"
+    }
+  }
+}

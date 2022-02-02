@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "advancedtech:block/reinforced_crimson_slab"
+    },
+    "type=double": {
+      "model": "advancedtech:block/reinforced_crimson_planks"
+    },
+    "type=top": {
+      "model": "advancedtech:block/reinforced_crimson_slab_top"
+    }
+  }
+}

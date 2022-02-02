@@ -26,14 +26,10 @@ public class AdvancedTech
 
         eventBus.addListener(this::setup);
 
-        // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    private void setup(final FMLCommonSetupEvent event)
-    {
-
-    }
+    private void setup(final FMLCommonSetupEvent event) {}
 
     public static final CreativeModeTab TAB = new CreativeModeTab("advancedTech") {
         @Override

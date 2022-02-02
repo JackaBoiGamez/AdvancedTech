@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "advancedtech:block/reinforced_acacia_planks",
+    "top": "advancedtech:block/reinforced_acacia_planks",
+    "side": "advancedtech:block/reinforced_acacia_planks"
+  }
+}

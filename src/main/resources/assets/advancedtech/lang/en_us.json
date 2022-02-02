@@ -6,7 +6,35 @@
   "item.advancedtech.motherboard": "Motherboard",
   "item.advancedtech.server_fan": "Server Fan",
   "item.advancedtech.block_drive": "Block Drive",
+  "item.advancedtech.power_supply": "Power Supply",
 
   "block.advancedtech.titan_ore": "Titan Ore",
-  "block.advancedtech.mini_server": "Mini Server"
+  "block.advancedtech.mini_server": "Mini Server",
+
+  "block.advancedtech.reinforced_oak_planks" : "Reinforced Oak Planks",
+  "block.advancedtech.reinforced_spruce_planks" : "Reinforced Spruce Planks",
+  "block.advancedtech.reinforced_birch_planks" : "Reinforced Birch Planks",
+  "block.advancedtech.reinforced_jungle_planks" : "Reinforced Jungle Planks",
+  "block.advancedtech.reinforced_acacia_planks" : "Reinforced Acacia Planks",
+  "block.advancedtech.reinforced_dark_oak_planks" : "Reinforced Dark Oak Planks",
+  "block.advancedtech.reinforced_crimson_planks" : "Reinforced Crimson Planks",
+  "block.advancedtech.reinforced_warped_planks" : "Reinforced Warped Planks",
+
+  "block.advancedtech.reinforced_oak_slab" : "Reinforced Oak Slab",
+  "block.advancedtech.reinforced_spruce_slab" : "Reinforced Spruce Slab",
+  "block.advancedtech.reinforced_birch_slab" : "Reinforced Birch Slab",
+  "block.advancedtech.reinforced_jungle_slab" : "Reinforced Jungle Slab",
+  "block.advancedtech.reinforced_acacia_slab" : "Reinforced Acacia Slab",
+  "block.advancedtech.reinforced_dark_oak_slab" : "Reinforced Dark Oak Slab",
+  "block.advancedtech.reinforced_crimson_slab" : "Reinforced Crimson Slab",
+  "block.advancedtech.reinforced_warped_slab" : "Reinforced Warped Slab",
+
+  "block.advancedtech.reinforced_oak_stairs" : "Reinforced Oak Stairs",
+  "block.advancedtech.reinforced_spruce_stairs" : "Reinforced Spruce Stairs",
+  "block.advancedtech.reinforced_birch_stairs" : "Reinforced Birch Stairs",
+  "block.advancedtech.reinforced_jungle_stairs" : "Reinforced Jungle Stairs",
+  "block.advancedtech.reinforced_acacia_stairs" : "Reinforced Acacia Stairs",
+  "block.advancedtech.reinforced_dark_oak_stairs" : "Reinforced Dark Oak Stairs",
+  "block.advancedtech.reinforced_crimson_stairs" : "Reinforced Crimson Stairs",
+  "block.advancedtech.reinforced_warped_stairs" : "Reinforced Warped Stairs"
 }
