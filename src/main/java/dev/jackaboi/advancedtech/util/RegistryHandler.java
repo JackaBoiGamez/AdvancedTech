@@ -52,7 +52,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> item_mini_server = ITEMS.register("mini_server", () -> new BlockItemBase(mini_server.get()));
 
     // [Auto]
-    public static final RegistryObject<Block>
+
 
     // [Reinforced]
     public static final RegistryObject<Block> reinforced_oak_planks = BLOCKS.register("reinforced_oak_planks", ReinforcedPlankBlock::new);
