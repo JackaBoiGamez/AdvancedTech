@@ -43,11 +43,17 @@ public class RegistryHandler {
 
     // -------------------------[BLOCKS]--------------------------
 
+    // [Ore]
     public static final RegistryObject<Block> titan_ore = BLOCKS.register("titan_ore", TitanOre::new);
     public static final RegistryObject<Item> item_titan_ore = ITEMS.register("titan_ore", () -> new BlockItemBase(titan_ore.get()));
+
+    // [Server]
     public static final RegistryObject<Block> mini_server = BLOCKS.register("mini_server", MiniServer::new);
     public static final RegistryObject<Item> item_mini_server = ITEMS.register("mini_server", () -> new BlockItemBase(mini_server.get()));
-    
+
+    // [Auto]
+    public static final RegistryObject<Block>
+
     // [Reinforced]
     public static final RegistryObject<Block> reinforced_oak_planks = BLOCKS.register("reinforced_oak_planks", ReinforcedPlankBlock::new);
     public static final RegistryObject<Item> item_reinforced_oak_planks = ITEMS.register("reinforced_oak_planks", () -> new BlockItemBase(reinforced_oak_planks.get()));
